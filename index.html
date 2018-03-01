@@ -1,6 +1,58 @@
 <!-- Start with your chatter|app here -->
+<!DOCTYPE html>
 <html>
     <title>ChatterApp</title>
+    <style>
+        /*Color palette: 
+            Background Color: #E0E0E0
+            Primary Text: #212121
+            Primary color: #2196F3
+            Primary color Text: #212121
+            Accent Color: #A5D6A7
+            Accent Color Text: #212121 */
+        /*All the ext is aligned to the left, with a lightgray background,
+                font family, Arial and as a backup we use sans-serif */
+        *{
+            text-align: left;
+            background-color: #E0E0E0;
+            font-family: Arial, sans-serif;
+        }
+        /*Background color for the buttons is #A5D6A7, with a black text which gives a contrast
+                ratio of 6.7. The text in the button is set to uppercase*/
+        button{
+            background-color: #A5D6A7;
+            color: #212121;  
+            text-transform: uppercase;
+        }
+        /*App bars ar set with a primary color #2196F3 with according black text color #212121*/
+        h1{
+            background-color: #2196F3;
+            color: #212121
+        }
+        /* links to w3w #locations in messages to uppercase*/
+        h1 > small{
+            background-color: #2196F3;
+            text-transform: uppercase;
+        }
+        /*white background to all channel names and chat texts */
+        h2{
+            background-color: #FAFAFA;
+        }
+        /*white background to all channel names and chat texts, font size changed to medium*/
+        h5{
+            background-color: #FAFAFA;
+            font-size: medium;
+        }
+        /*font size of the message #metadata medium.*/
+        h3{
+            font-size: medium;
+        }
+        /*Remaining time changed to larger and non-italic style */
+        em{
+            font-size: larger;
+            font-style: normal;
+        }
+    </style>
     <body>
         <h1>Chatter|App </h1>
             <h2>#Yummy</h2>
